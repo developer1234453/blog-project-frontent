@@ -1,0 +1,39 @@
+.edit-post {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .edit-post form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-post label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-post input,
+  .edit-post textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-post button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-post button:hover {
+    background-color: #218838;
+  }
+  

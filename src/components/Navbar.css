@@ -1,0 +1,49 @@
+/* General navbar styling */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff;            /* White text color */
+    padding: 10px 0;       /* Vertical padding */
+    position: sticky;      /* Stick to top on scroll */
+    top: 0;                /* Align to top */
+    width: 100%;            /* Full width */
+    z-index: 1000;         /* Ensure it's above other content */
+  }
+  
+  /* Container for navbar content */
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;       /* Center align */
+  }
+  
+  /* Navbar heading */
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Navbar links */
+  .navbar ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex;    /* Flexbox layout */
+  }
+  
+  .navbar li {
+    margin-left: 20px; /* Space between items */
+  }
+  
+  .navbar a {
+    color: #fff;       /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;   /* Font size */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #f4f4f4;   /* Slightly lighter color on hover */
+  }
+  
